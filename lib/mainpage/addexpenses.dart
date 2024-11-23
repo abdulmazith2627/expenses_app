@@ -1,3 +1,4 @@
+
 import 'dart:typed_data';
 
 import 'package:expenses_app/backend/fetchdata.dart';
@@ -8,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
+// add expenses class start
 class Addexpenses extends StatefulWidget {
   const Addexpenses({super.key});
 
@@ -137,3 +138,4 @@ class _AddexpensesState extends State<Addexpenses> {
     );
   }
 }
+// add expenses class end
